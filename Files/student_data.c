@@ -20,7 +20,7 @@ int main()
     char name_tmp[100] , grade_tmp;
     int mark_tmp;
     fp = fopen("data.txt" , "r");
-    fscanf(fp, "%s %d %c",name_tmp, &grade_tmp, &mark_tmp);
+    fscanf(fp, "%s %d %c",name_tmp, &mark_tmp, &grade_tmp);
     printf("\nName: %s\n" , name_tmp);
     printf("Mark: %d\n" , mark_tmp);
     printf("Grade: %c\n" , grade_tmp);
