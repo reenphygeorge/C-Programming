@@ -1,3 +1,5 @@
+// Program to append text to an existing file //
+
 #include<stdio.h>
 #include<string.h>
 
